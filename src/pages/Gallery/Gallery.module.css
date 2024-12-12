@@ -1,0 +1,37 @@
+.gallery {
+  text-align: center;
+  padding: 20px 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.galleryTitle {
+  font-size: 24px;
+  color: #b5651d;
+  font-family: "Playfair Display", serif;
+}
+
+.galleryParagraph {
+  font-size: 14px;
+  color: #555;
+}
+
+@media (min-width: 768px) {
+  .galleryTitle {
+    font-size: 34px;
+  }
+  .galleryParagraph {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .galleryTitle {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .galleryParagraph {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+}
