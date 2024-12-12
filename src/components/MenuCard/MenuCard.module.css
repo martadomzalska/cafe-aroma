@@ -1,0 +1,128 @@
+.menuCategories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.menuCategory {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.menuCategory h2 {
+  margin-bottom: 15px;
+  font-family: "Playfair Display", serif;
+  color: #b5651d;
+  text-align: center;
+  font-size: 20px;
+}
+
+.menuItems {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menuItem {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menuItemImage {
+  margin-right: 5px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menuItemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-between;
+  width: 233px;
+}
+.menuItemHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuItemHeader h3 {
+  font-size: 14px;
+  color: #444;
+  margin: 10px;
+  margin: 0;
+}
+
+.menuItemPrice {
+  font-size: 14px;
+  color: #b5651d;
+  font-weight: bold;
+  text-align: right;
+}
+
+.menuItemDescription {
+  font-size: 14px;
+  color: #666;
+  text-align: left;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .menuCategory h2 {
+    font-size: 24px;
+  }
+
+  .menuItem {
+    gap: 20px;
+  }
+  .menuItemImage {
+    width: 120px;
+    height: 120px;
+    margin-right: 0px;
+  }
+  .menuItemContent {
+    width: 350px;
+  }
+  .menuItemHeader h3 {
+    font-size: 18px;
+  }
+
+  .menuItemPrice {
+    font-size: 18px;
+  }
+
+  .menuItemDescription {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .menuCategory h2 {
+    font-size: 30px;
+  }
+
+  .menuItemImage {
+    width: 130px;
+    height: 130px;
+  }
+  .menuItemContent {
+    width: 520px;
+  }
+  .menuItemHeader h3 {
+    font-size: 24px;
+  }
+
+  .menuItemPrice {
+    font-size: 24px;
+  }
+
+  .menuItemDescription {
+    font-size: 18px;
+  }
+}
