@@ -1,0 +1,156 @@
+.about {
+  font-family: "Open Sans", sans-serif;
+  color: #6d4c41;
+  line-height: 1.6;
+  padding: 20px 40px;
+  background-color: #f5e9dc;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: #ede0d4;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  color: #4e342e;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-size: 18px;
+  color: #6d4c41;
+  text-align: justify;
+}
+
+.story {
+  margin-bottom: 40px;
+}
+
+.story h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  color: #4e342e;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #d4af37;
+  display: inline-block;
+}
+
+.story p {
+  font-size: 18px;
+  color: #6d4c41;
+  margin-bottom: 10px;
+}
+
+.storyContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.storyText {
+  flex: 1;
+}
+.storyText p {
+  text-align: justify;
+}
+
+.storyImage {
+  flex: 1;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.philosophy {
+  background-color: #ede0d4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.philosophyContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.philosophyText {
+  flex: 1;
+}
+.philosophyText p {
+  text-align: justify;
+  font-size: 18px;
+}
+.philosophyText h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+}
+
+.philosophyImage {
+  flex: 1;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .story h2,
+  .philosophy h2 {
+    font-size: 1.8rem;
+  }
+
+  .header p,
+  .story p,
+  .philosophy p {
+    font-size: 18px;
+  }
+
+  .storyContent {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    text-align: right;
+  }
+  .storyContent h2 {
+    text-align: right;
+  }
+
+  .philosophyContent {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .philosophyText h2 {
+    text-align: left;
+  }
+}
+@media (min-width: 1024px) {
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .header p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
