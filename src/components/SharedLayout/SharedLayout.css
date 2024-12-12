@@ -1,0 +1,8 @@
+.container {
+  max-width: 1200px;
+
+  height: 100hv;
+  margin: 0 auto; /* Wyśrodkowanie */
+  /* padding: 0 1rem; Zapewnia odstęp od krawędzi w mniejszych ekranach */
+  box-sizing: border-box; /* Uwzględnia padding w szerokości kontenera */
+}
